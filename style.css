@@ -1,0 +1,35 @@
+body{
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/039/858/919/small/ai-generated-king-of-chess-pieces-on-the-board-sunset-sky-in-the-background-horizontal-format-copy-space-photo.jpg");
+    background-size: calc(1);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    width: 480px;
+    border: 2px solid #333;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
